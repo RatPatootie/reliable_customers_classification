@@ -19,7 +19,7 @@ To install the required dependencies, run:
     
 Preparation:
 
-    before running predict.py you should run devide_data.py for dividing data on train and new_input
+    before running predict.py you should run devide_data.py for dowloading and  dividing data on train and new_input
 
 Running:
 
