@@ -1,5 +1,4 @@
 Business needs
-
     This project provides a machine learning model that predicts the likelihood of a customer defaulting on a loan, allowing the bank to make informed decisions and mitigate financial risks.
     
 Requirements
@@ -18,12 +17,11 @@ To install the required dependencies, run:
     pip install -r requirements.txt
     
 Preparation:
-
     before running predict.py you should run devide_data.py for dowloading and  dividing data on train and new_input
 
 Running:
-
     To run the demo, execute:
+
         python predict.py 
 
     After running the script in that folder will be generated <prediction_results.csv> 
@@ -37,7 +35,7 @@ Training a Model:
     After running the script the "param_dict.pickle"  and "finalized_model.saw" and "scaler.plk" will be created.
 
     Run the training script:
-        python train.py
-
     
+        python train.py
+ 
     The model accuracy is 72%
